@@ -1,4 +1,11 @@
-## `OpenWrt-x64_all 【ZUIKE-OpenWrt-2024】内核版本6.1X 云编译`
+## `OpenWrt-x64【ZUIKE-OpenWrt-2024】内核版本6.1X 云编译`
+# ZUIKE-OpenWrt| [醉客网](https://zuike7.com)
+
+[![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/zuifengguai/ZUIKE-OpenWrt-2024)
+![GitHub Stars](https://img.shields.io/github/stars/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
+![GitHub Forks](https://img.shields.io/github/forks/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Forks&logo=github)
+
+
 编译状态：
 
 <a href="https://github.com/zuifengguai/ZUIKE-OpenWrt-2024/actions/workflows/OpenWrt_Build_x64_all.yml">
@@ -13,15 +20,15 @@
 
 
 ---
-🆘2024年更新OpenWrt_x86_64固件
+
+### 2024年更新OpenWrt_x86_64固件
 <br>
-[2024全新插件库更新]  
-
-
-重要提示  
-  
+<summary>🆘 2024全新插件库更新  【重要提示】
+<br />
+<br>
+    
 1.因精力有限，不提供任何技术支持、使用教程;
-
+    
 2.仅限完全行为能力人使用本固件，使用本固件即视为使用者的自愿行为;
 
 3.本人不保证固件的普适性，不保证无bug，不保证绝对的安全稳定;
@@ -31,9 +38,12 @@
 ---
 
 <br>
-<summary>✴️加入固件更新/反馈通知频道</summary>加入固件反馈频道(https://t.me/+nY18Q9dltBhmNTQ1)  🏠Telegram群
+<summary>✴️加入固件更新/反馈通知频道</summary>
+<br>
+加入固件反馈频道(https://t.me/+nY18Q9dltBhmNTQ1)  🏠Telegram群
 <br />
   我会定时对收集的信息+内核版本及固件版本进行一次更新,并对需要更新的功能一次大升级
+
 <br>
   固件使用问题第一时间留言!稳定更新[达到每个版本都可养老]
 <br />
