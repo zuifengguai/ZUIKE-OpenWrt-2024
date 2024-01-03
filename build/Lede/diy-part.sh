@@ -5,7 +5,7 @@
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
 #添加CPU使用率、交流频道、固件下载地址
-sed -i '/<tr><td width="33%"><%:CPU usage/a <tr><td width="33%"><%:Compiler author%></td><td><a target="_blank" href="https://t.me/+nY18Q9dltBhmNTQ1">【电报TG群】</a></td></tr>' package/lean/autocore/files/x86/index.htm
+sed -i '/<tr><td width="33%"><%:CPU usage/a <tr><td width="33%"><%:Compiler author%></td><td><a target="_blank" href="https://t.me/+nY18Q9dltBhmNTQ1">电报TG群</a></td></tr>' package/lean/autocore/files/x86/index.htm
 sed -i '5a\msgid "Compiler author"' feeds/luci/modules/luci-base/po/zh-cn/base.po
 sed -i '6a\msgstr "交流频道"' feeds/luci/modules/luci-base/po/zh-cn/base.po
 sed -i '7a \\' feeds/luci/modules/luci-base/po/zh-cn/base.po
@@ -19,7 +19,7 @@ sed -i '10a \\' feeds/luci/modules/luci-base/po/zh-cn/base.po
 # 后台IP设置
 export Ipv4_ipaddr="192.168.5.1"             # 修改openwrt后台地址(填0为关闭)
 export Netmask_netm="255.255.255.0"          # IPv4 子网掩码（默认：255.255.255.0）(填0为不作修改)
-export Op_name="OpenWrt-ZuiKe"               # 修改主机名称为OpenWrt-123(填0为不作修改)
+export Op_name="ZuiKe"               # 修改主机名称为OpenWrt-123(填0为不作修改)
 
 # 内核和系统分区大小(不是每个机型都可用)
 export Kernel_partition_size="256"            # 内核分区大小,每个机型默认值不一样 (填写您想要的数值,默认一般16,数值以MB计算，填0为不作修改),如果你不懂就填0
