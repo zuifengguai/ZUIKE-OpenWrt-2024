@@ -5,6 +5,8 @@
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
 
+#拉取方不良林有修改的homeproxy
+git clone https://github.com/bulianglin/homeproxy.git package/homeproxy
 
 
 #添加CPU使用率、编译作者、固件下载地址
