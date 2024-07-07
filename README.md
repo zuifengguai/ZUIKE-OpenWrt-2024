@@ -1,4 +1,4 @@
-## `OpenWrt-x64【ZUIKE-OpenWrt-2024】内核版本6.1X 云编译`
+## `OpenWrt-x64【ZUIKE-OpenWrt-2024】云编译`
 # ZUIKE-OpenWrt| [醉客网](https://zuike7.com)
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/zuifengguai/ZUIKE-OpenWrt-2024)
