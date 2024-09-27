@@ -33,25 +33,23 @@
 
 编译状态：
 
-<a href="https://github.com/zuifengguai/ZUIKE-OpenWrt/actions/workflows/OpenWrt_Build_x64_all.yml">
+<a href="https://github.com/zuifengguai/ZUIKE-OpenWrt-2024/actions/workflows/OpenWrt_Build_x64_all.yml">
     <img src="https://github.com/gxnas/OpenWrt_Build_x64_all/actions/workflows/OpenWrt_Build_x64_all.yml/badge.svg?style=flat" />
 </a>
 
 </br>
-<a href="https://github.com/zuifengguai/ZUIKE-OpenWrt/actions/workflows/compile.yml">
+<a href="https://github.com/zuifengguai/ZUIKE-OpenWrt-2024/actions/workflows/compile.yml">
     <img src="https://github.com/gxnas/OpenWrt_Build_x64_all/actions/workflows/compile.yml/badge.svg?style=flat" />
 </a>
  
-#### 🚩 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/zuifengguai/ZUIKE-OpenWrt/releases) 即可跳转到该设备固件下载页面
+#### 🚩 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/zuifengguai/ZUIKE-OpenWrt-2024/releases) 即可跳转到该设备固件下载页面
 | 平台+设备名称 | 固件编译状态 | 配置文件 | 固件下载 |
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| [![](https://img.shields.io/badge/openwrt-X86_64-32C955.svg?logo=openwrt)](https://github.com/zuifengguai/ZUIKE-OpenWrt/blob/main/.github/workflows/Lede.yml) | [![](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml/badge.svg)](https://github.com/zuifengguai/ZUIKE-OpenWrt/actions/workflows/Lede.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/zuifengguai/ZUIKE-OpenWrt/blob/main/build/Lede/seed/x86_64) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/zuifengguai/ZUIKE-OpenWrt/releases) |
+| [![](https://img.shields.io/badge/openwrt-X86_64-32C955.svg?logo=openwrt)](https://github.com/zuifengguai/ZUIKE-OpenWrt-2024/blob/main/.github/workflows/OpenWrt_Build_x64_all.yml) | [![](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml/badge.svg)](https://github.com/zuifengguai/ZUIKE-OpenWrt-2024/actions/workflows/OpenWrt_Build_x64_all.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/zuifengguai/ZUIKE-OpenWrt-2024/blob/main/build/Lede/seed/x64_all) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/zuifengguai/ZUIKE-OpenWrt-2024/releases) |
 
 - ================================================================
 - 首先需要打开 Openwrt 主页,点击系统-TTYD 命令窗,或者使用```putty```或者```openwrt```后台luci插件在线更新 
 - 输入`openwrt`即可进入固件升级菜单                            
-- 输入`tools`即可打开工具箱
-- 输入`qinglong`即可全自动安装青龙 
 - ================================================================
 
 - 自行云编译固件姿势
