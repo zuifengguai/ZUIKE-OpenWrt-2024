@@ -16,7 +16,8 @@
 #添加luci-app-mosdns插件
 git clone -b v5-lua --depth 1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
 
-
+#添加luci-app-pushbot全能推送插件
+git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 
 # 后台IP设置
 export Ipv4_ipaddr="192.168.5.1"             # 修改openwrt后台地址(填0为关闭)
