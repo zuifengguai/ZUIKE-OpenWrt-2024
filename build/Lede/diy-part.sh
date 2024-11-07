@@ -17,11 +17,11 @@
 git clone -b v5-lua --depth 1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
 
 #添加CPU使用率、编译作者、固件下载地址
-# sed -i '/<tr><td width="33%"><%:CPU usage/a <tr><td width="33%"><%:Compiler author%></td><td><a target="_blank" href=""https://t.me/+nY18Q9dltBhmNTQ1">电报TG群</a></td></tr>' package/lean/autocore/files/x86/index.htm
-# sed -i '5a\msgid "Compiler author"' feeds/luci/modules/luci-base/po/zh-cn/base.po
-# sed -i '6a\msgstr "交流频道"' feeds/luci/modules/luci-base/po/zh-cn/base.po
-# sed -i '7a \\' feeds/luci/modules/luci-base/po/zh-cn/base.po
-# sed -i '/<tr><td width="33%"><%:Compiler author/a <tr><td width="33%"><%:Firmware Update%></td><td><a target="_blank" href="https://zuike7.com/document/549.html">点这里下载最新版本</a></td></tr>' package/lean/autocore/files/x86/index.htm
+ sed -i '/<tr><td width="33%"><%:CPU usage/a <tr><td width="33%"><%:Compiler author%></td><td><a target="_blank" href=""https://t.me/+nY18Q9dltBhmNTQ1">电报TG群</a></td></tr>' package/lean/autocore/files/x86/index.htm
+ sed -i '5a\msgid "Compiler author"' feeds/luci/modules/luci-base/po/zh-cn/base.po
+ sed -i '6a\msgstr "交流频道"' feeds/luci/modules/luci-base/po/zh-cn/base.po
+ sed -i '7a \\' feeds/luci/modules/luci-base/po/zh-cn/base.po
+ sed -i '/<tr><td width="33%"><%:Compiler author/a <tr><td width="33%"><%:Firmware Update%></td><td><a target="_blank" href="https://zuike7.com/document/549.html">点这里下载最新版本</a></td></tr>' package/lean/autocore/files/x86/index.htm
 
 #添加汉化
 # sed -i '8a\msgid "Firmware Update"' feeds/luci/modules/luci-base/po/zh-cn/base.po
