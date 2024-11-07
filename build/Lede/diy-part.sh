@@ -24,9 +24,9 @@ git clone -b v5-lua --depth 1 https://github.com/sbwml/luci-app-mosdns package/l
  sed -i '/<tr><td width="33%"><%:Compiler author/a <tr><td width="33%"><%:Firmware Update%></td><td><a target="_blank" href="https://zuike7.com/document/549.html">点这里下载最新版本</a></td></tr>' package/lean/autocore/files/x86/index.htm
 
 #添加汉化
-# sed -i '8a\msgid "Firmware Update"' feeds/luci/modules/luci-base/po/zh-cn/base.po
-# sed -i '9a\msgstr "固件出处"' feeds/luci/modules/luci-base/po/zh-cn/base.po
-# sed -i '10a \\' feeds/luci/modules/luci-base/po/zh-cn/base.po
+ sed -i '8a\msgid "Firmware Update"' feeds/luci/modules/luci-base/po/zh-cn/base.po
+ sed -i '9a\msgstr "固件出处"' feeds/luci/modules/luci-base/po/zh-cn/base.po
+ sed -i '10a \\' feeds/luci/modules/luci-base/po/zh-cn/base.po
 
 # 后台IP设置
 export Ipv4_ipaddr="192.168.5.1"             # 修改openwrt后台地址(填0为关闭)
